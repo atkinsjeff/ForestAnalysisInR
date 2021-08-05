@@ -4,7 +4,7 @@
 \alias{launchRFA}
 \title{Launch ForestAnalysisInR App}
 \usage{
-launchApp(...)
+launchRFA(...)
 }
 \arguments{
 \item{...}{additional parameters from the \code{\link[shiny:runApp]{runApp}} function in the \emph{shiny} package.}
@@ -25,7 +25,4 @@ The ForestryAnalysisInR app doesn't really work actually. Big sad
 ForestryAnalysisInR::launchRFA(launch.browser = TRUE)
 
 }
-}
-\references{
-
 }

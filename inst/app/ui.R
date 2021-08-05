@@ -4,7 +4,7 @@
 
 ################################################################################
 
-appDir <- file.path(file.path("C:/R/ForestAnalysisInR/inst/app"))
+appDir <- file.path(path.package("ForestAnalysisInR", quiet=TRUE),"app")
 
 
 ###
@@ -18,9 +18,9 @@ shinyUI(pageWithSidebar(
     # # adding the new div tag to the sidebar
     tags$div(class="header", checked=NA,
              tags$p("Tutorials"),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/fia.pdf", 'Inventory,'),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/dendro.pdf", 'Dendrochronology,'),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/modelling.pdf", 'Forest Modelling')
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/fia.pdf", 'Inventory,'),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/dendro.pdf", 'Dendrochronology,'),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/modelling.pdf", 'Forest Modelling')
 
     )
   ),

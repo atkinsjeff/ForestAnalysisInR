@@ -2,13 +2,11 @@
 #
 #'@description This function launch the treetop application.
 #'
-#'@usage launchApp(...)
+#'@usage launchRFA(...)
 #'
 #'@param ... additional parameters from the \code{\link[shiny:runApp]{runApp}} function in the \emph{shiny} package.
 #'@return This function does not return.
 #'@details The ForestryAnalysisInR app doesn't really work actually. Big sad
-#'@references
-
 #'
 #'@examples
 #'\dontrun{
@@ -26,7 +24,7 @@
 #'@importFrom magrittr %>%
 
 launchRFA<-function(...){
-  #appDir <- file.path(path.package("ForestAnalysisInR", quiet=TRUE),"app")
-  appDir <- file.path("C:/R/ForestAnalysisInR/inst/app")
+  appDir <- file.path(path.package("ForestAnalysisInR", quiet=TRUE),"app")
+  #appDir <- file.path("C:/R/ForestAnalysisInR/inst/app")
   shiny::runApp(appDir)
 }
