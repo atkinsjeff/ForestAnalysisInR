@@ -19,7 +19,10 @@ shinyApp(
       # # adding the new div tag to the sidebar
       tags$div(class="header", checked=NA,
                tags$p("Tutorials"),
-               tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/fia.pdf", 'Inventory')
+               tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/fia.pdf", 'Inventory'),
+               tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/dendro.pdf", 'Dendrology'),
+               tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/vignettes/modelling.pdf", 'Forest Modelling')
+
         )
       ),
     mainPanel(
