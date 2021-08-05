@@ -3,7 +3,7 @@
 #' @details Import forestry package list
 #'
 #' @note List updated 2021-08-03
-#' @return A `data.frame` or `tibble`. Call \code{\link{fd_metadata}} for field metadata.
+#' @return A `data.frame`
 #' @format
 #'  \code{Package}Package name
 #'  \code{Applications}Application (e.g. remote sensing, mensuration, inventory)
@@ -16,6 +16,6 @@
 rfa <- function() {
 
   # import data
-  rfa.packages <- utils::read.csv("./inst/extdata/bibliometrics/list_of_packages.csv", stringsAsFactors = FALSE)
+  rfa.packages <- utils::read.csv("https://raw.githubusercontent.com/atkinsjeff/ForestAnalysisInR/main/inst/extdata/bibliometrics/list_of_packages.csv")
   return(rfa.packages)
 }

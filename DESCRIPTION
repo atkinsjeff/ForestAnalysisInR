@@ -27,6 +27,8 @@ License: file LICENSE
 BugReports: https://github.com/FoRTExperiment/fortedata/issues
 Suggests: 
     shiny,
+    DT,
+    magrittr,
     knitr,
     ggplot2,
     rmarkdown,
