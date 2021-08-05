@@ -1,0 +1,40 @@
+Package: ForestAnalysisInR
+Type: Package
+Title: A Meta-Package For Finding R Pacakges For Forest Ecology And Forestry Research
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Jeff",
+             family = "Atkins",
+             role = c("aut", "cre"),
+             email = "jeffrey.atkins@usda.gov"),
+      person(given = "Carlos",
+             family = "Silva",
+             role = "aut"),
+      person(given = "Atticus",
+             family = "Stovall",
+             role = "aut"))
+Maintainer: Jeff Atkins <jeffrey.atkins@usda.gov>
+Description: The ForestAnalysisInR package connects users to the plethora
+    of applications, packages, and datasets that exist for forest ecology and 
+    forestry research for the R environment. The package includes functions that
+    import data regarding extant R packages specific to forest related research,
+    and provides information on their primary applications. Further, the package 
+    includes a Shiny-based app that can be run local, that provides an interactive
+    look at the same data.
+Depends:
+    R (>= 3.5.0)
+License: file LICENSE
+BugReports: https://github.com/FoRTExperiment/fortedata/issues
+Suggests: 
+    shiny,
+    knitr,
+    ggplot2,
+    rmarkdown,
+    tidyverse,
+    viridis,
+    stats
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr

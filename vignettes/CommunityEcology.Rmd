@@ -1,0 +1,108 @@
+---
+title: "Community Analysis in R"
+author: "Atkins, Stovall, and Silva"
+date: "7/28/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Remote Sensing in R with ForestGapR
+
+### Installation of ForestGapR
+
+```{r install}
+#The development version install requires devtools:
+library(devtools)
+
+# install the package if not already installed and call it via library()
+if(!require(ForestGapR)){devtools::install_github("carlos-alberto-silva/ForestGapR")}
+library(ForestGapR)
+# ForestGapR additionally requires the `raster` packages
+if(!require(raster)){install.packages("raster")}
+library(raster)
+# ForestGapR additionally requires the `viridis` packages
+if(!require(viridis)){install.packages("viridis")}
+library(viridis)
+
+```
+
+`ForestGapR` works directly with canopy height models (CHM) which are in raster file format (".tif") 
+
+```{r create.folders}
+
+#Loading raster and viridis library
+library(raster)
+library(viridis)
+
+# ALS-derived CHM over Adolpho Ducke Forest Reserve - Brazilian tropical forest
+laja <- raster("./data/remote_sensing/laja_chm.tif")
+
+# Plotting chm
+plot(laja, col=viridis(10))
+ 
+# Setting height thresholds (e.g. 10 meters)
+threshold <- 10
+size <- c(1,1000) # m2
+
+# Detecting forest gaps
+gaps_laja<-getForestGaps(chm_layer=laja, threshold=threshold, size=size)
+
+# Plotting chm
+plot(laja, col=viridis(10))
+# Plotting gaps
+plot(gaps_laja, col="red", add=TRUE, main="Forest Canopy Gap", legend=FALSE)
+
+# ALS-derived CHM over Adolpho Ducke Forest Reserve - Brazilian tropical forest
+osbs <- raster("./data/remote_sensing/osbs.tif")
+
+# Plotting chm
+plot(osbs, col=viridis(10))
+ 
+# Setting height thresholds (e.g. 10 meters)
+threshold <- 10
+size <- c(1,1000) # m2
+
+# Detecting forest gaps
+gaps_duc<-getForestGaps(chm_layer=osbs, threshold=threshold, size=size)
+
+x11()
+# Plotting chm
+plot(osbs, col=viridis(10))
+# Plotting gaps
+plot(gaps_duc, col="red", add=TRUE, main="Forest Canopy Gap", legend=FALSE)
+
+```
+
+Data can then be read in via the `read.table` function:
+
+```{r read.data}
+# load the time series data
+td <- read.table("./data/phenology/pace_DB_1000_3day_transition_dates.csv", header = TRUE, sep = ",")
+
+df
+
+# read in time series data
+df <- read.table("./data/phenology/pace_DB_1000_3day.csv",
+                 header = TRUE,
+                 sep = ",")
+```
+
+Plots can then be made in base R with transitional dates overlain: 
+```{r plotting}
+# select the rising (spring dates) for 25% threshold of Gcc 90
+td <- td[td$direction == "rising" & td$gcc_value == "gcc_90",]
+
+# create a simple line graph of the smooth Green Chromatic Coordinate (Gcc)
+# and add points for transition dates
+plot(as.Date(df$date), df$smooth_gcc_90, type = "l", xlab = "Date",
+     ylab = "Gcc (90th percentile)")
+points(x = as.Date(td$transition_25, origin = "1970-01-01"),
+       y = td$threshold_25,
+       pch = 19,
+       col = "red")
+```
