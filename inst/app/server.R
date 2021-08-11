@@ -1,4 +1,5 @@
 ####
+require(magrittr)
 
 # server.r
 options(shiny.maxRequestSize= 1000*1024^2)

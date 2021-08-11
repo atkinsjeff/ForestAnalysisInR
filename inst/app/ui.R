@@ -18,14 +18,16 @@ shinyUI(pageWithSidebar(
     # # adding the new div tag to the sidebar
     tags$div(class="header", checked=NA,
              tags$p("Tutorials"),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/fia.pdf", 'Inventory,'),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/dendro.pdf", 'Dendrochronology,'),
-             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/doc/modelling.pdf", 'Forest Modelling')
-
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/forest_inventory_and_analysis.pdf", 'Inventory,'),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/dendrochronology.pdf", 'Dendrochronology,'),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/forest_modelling.pdf", 'Forest Modelling,'),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/remote_sensing.pdf", "Remote Sensing,"),
+             tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/phenology.pdf", "Phenology")
     )
   ),
+
   mainPanel(
     DT::dataTableOutput("table")
+    )
   )
-)
 )
