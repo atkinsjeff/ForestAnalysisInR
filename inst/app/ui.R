@@ -11,7 +11,7 @@ appDir <- file.path(path.package("ForestAnalysisInR", quiet=TRUE),"app")
 shinyUI(pageWithSidebar(
   #rfa.packages <- utils::read.csv("./inst/extdata/bibliometrics/list_of_packages.csv"),
 
-  headerPanel("R package for Forestry Analysis"),
+  headerPanel("R packages for Forestry Analysis"),
   sidebarPanel(
     selectizeInput('var1', 'Select Application', choices = c("choose" = "", c("Inventory/Mensuration", "Community Analysis", "Dendrochronology",      "Modelling/Simulation",
                                                                               "Phenology","Remote Sensing")), multiple = FALSE, selected = "Remote Sensing" ),
