@@ -9,6 +9,8 @@
 ForestAnalysisInR is a “metapackage,” an R package that is meant to help
 users find the right tools in R to produce the analysis they need.
 
+![](inst/extdata/hex.png)
+
 ## Installation
 
 You can install the development version of ForestAnalysisIn from
