@@ -13,11 +13,11 @@ shinyUI(pageWithSidebar(
 
   headerPanel("R packages for Forestry Analysis"),
   sidebarPanel(
-    selectizeInput('var1', 'Select Application', choices = c("choose" = "", c("Community Analysis", "Dendrochronology", "Inventory/Mensuration",  "Modelling/Simulation",
+    selectizeInput('var1', 'Select Application', choices = c("choose" = "", c("Community Analysis", "Dendrochronology", "Inventory/Mensuration", "Informatics/IoT", "Modelling/Simulation",
                                                                               "Phenology","Remote Sensing")), multiple = FALSE, selected = "Remote Sensing" ),
     # # adding the new div tag to the sidebar
     tags$div(class="header", checked=NA,
-             tags$p("Tutorials"),
+             tags$p("Tutorials (Redirects to a new window)"),
              tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/forest_inventory_and_analysis.pdf", 'Inventory,'),
              tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/dendrochronology.pdf", 'Dendrochronology,'),
              tags$a(href="https://github.com/atkinsjeff/ForestAnalysisInR/blob/main/inst/extdata/doc/forest_modelling.pdf", 'Forest Modelling,'),

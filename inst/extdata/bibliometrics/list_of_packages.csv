@@ -82,3 +82,7 @@ ShapeSelectForest,Remote Sensing,Shape Selection for Landsat time Series of Fore
 Sky,Remote Sensing,Canopy Openness Analyzer Package,https://cran.r-project.org/web/packages/Sky/index.html 
 TreeLS,Remote Sensing,Terrestrial Point Cloud Processing of Forest Data,https://cran.r-project.org/web/packages/TreeLS/index.html 
 treetop,Remote Sensing,A Shiny-Based Application for Extracting Forest Information from LiDAR Data,https://cran.r-project.org/web/packages/treetop/index.html
+tidyFIA,Inventory/Mensuration,Assemble Forest Inventory and Analysis (FIA) Data for Analysis,https://github.com/SilviaTerra/tidyFIA
+forestsamplr,Inventory/Mensuration,Standard Forest Sampling Design Workups,https://github.com/SilviaTerra/forestsamplr
+caliver,Modelling/Simulation,An R package for the calibration and verification of gridded models,https://github.com/ecmwf/caliver
+TreeTalkersCheck,Informatics/IoT,An alert system to daily monitoring of TreeTalkers devices,https://github.com/saveriofrancini/TreeTalkersCheck
