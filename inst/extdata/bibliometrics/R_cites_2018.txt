@@ -1,0 +1,237 @@
+Web of Science Categories	Record Count	% of 23,392
+Ecology	3959	16.925
+Environmental Sciences	2430	10.388
+Multidisciplinary Sciences	1993	8.520
+Plant Sciences	1304	5.575
+Evolutionary Biology	1233	5.271
+Marine Freshwater Biology	1221	5.220
+Zoology	1142	4.882
+Biodiversity Conservation	1082	4.626
+Genetics Heredity	817	3.493
+Forestry	685	2.928
+Statistics Probability	646	2.762
+Microbiology	629	2.689
+Biochemistry Molecular Biology	607	2.595
+Geosciences Multidisciplinary	585	2.501
+Agronomy	550	2.351
+Entomology	536	2.291
+Public Environmental Occupational Health	518	2.214
+Biology	516	2.206
+Neurosciences	485	2.073
+Fisheries	472	2.018
+Psychology Experimental	454	1.941
+Behavioral Sciences	418	1.787
+Water Resources	416	1.778
+Oceanography	415	1.774
+Geography Physical	388	1.659
+Veterinary Sciences	371	1.586
+Biotechnology Applied Microbiology	366	1.565
+Soil Science	359	1.535
+Psychiatry	341	1.458
+Psychology Multidisciplinary	322	1.377
+Ornithology	301	1.287
+Linguistics	297	1.270
+Oncology	289	1.235
+Infectious Diseases	279	1.193
+Food Science Technology	278	1.188
+Computer Science Interdisciplinary Applications	272	1.163
+Environmental Studies	267	1.141
+Psychology	260	1.111
+Agriculture Dairy Animal Science	259	1.107
+Clinical Neurology	255	1.090
+Mathematical Computational Biology	244	1.043
+Meteorology Atmospheric Sciences	241	1.030
+Engineering Environmental	234	1.000
+Pharmacology Pharmacy	234	1.000
+Agriculture Multidisciplinary	231	0.988
+Parasitology	221	0.945
+Toxicology	209	0.893
+Biochemical Research Methods	203	0.868
+Education Educational Research	189	0.808
+Language Linguistics	188	0.804
+Immunology	183	0.782
+Radiology Nuclear Medicine Medical Imaging	179	0.765
+Remote Sensing	179	0.765
+Health Care Sciences Services	176	0.752
+Psychology Developmental	173	0.740
+Limnology	172	0.735
+Psychology Clinical	170	0.727
+Medicine General Internal	166	0.710
+Surgery	163	0.697
+Cell Biology	161	0.688
+Physiology	161	0.688
+Medicine Research Experimental	158	0.675
+Mathematics Interdisciplinary Applications	156	0.667
+Tropical Medicine	156	0.667
+Endocrinology Metabolism	135	0.577
+Audiology Speech Language Pathology	133	0.569
+Anthropology	125	0.534
+Horticulture	125	0.534
+Pediatrics	121	0.517
+Medical Informatics	119	0.509
+Economics	117	0.500
+Psychology Educational	116	0.496
+Social Sciences Mathematical Methods	114	0.487
+Imaging Science Photographic Technology	112	0.479
+Nutrition Dietetics	112	0.479
+Psychology Biological	110	0.470
+Cardiac Cardiovascular Systems	109	0.466
+Rehabilitation	108	0.462
+Engineering Civil	106	0.453
+Chemistry Multidisciplinary	102	0.436
+Paleontology	95	0.406
+Psychology Social	93	0.398
+Chemistry Analytical	92	0.393
+Computer Science Artificial Intelligence	91	0.389
+Green Sustainable Science Technology	91	0.389
+Energy Fuels	90	0.385
+Obstetrics Gynecology	90	0.385
+Geography	89	0.380
+Psychology Mathematical	89	0.380
+Sport Sciences	88	0.376
+Urban Studies	84	0.359
+Orthopedics	83	0.355
+Respiratory System	83	0.355
+Ophthalmology	82	0.351
+Computer Science Information Systems	75	0.321
+Hematology	74	0.316
+Psychology Applied	74	0.316
+Geriatrics Gerontology	70	0.299
+Mycology	69	0.295
+Health Policy Services	67	0.286
+Neuroimaging	64	0.274
+Geochemistry Geophysics	63	0.269
+Acoustics	62	0.265
+Management	62	0.265
+Operations Research Management Science	61	0.261
+Social Sciences Interdisciplinary	61	0.261
+Gastroenterology Hepatology	60	0.256
+Virology	60	0.256
+Otorhinolaryngology	58	0.248
+Engineering Biomedical	57	0.244
+Engineering Electrical Electronic	57	0.244
+Urology Nephrology	57	0.244
+Medicine Legal	56	0.239
+Transportation	56	0.239
+Biophysics	55	0.235
+Computer Science Theory Methods	55	0.235
+Critical Care Medicine	55	0.235
+Substance Abuse	54	0.231
+Anatomy Morphology	53	0.227
+Chemistry Applied	53	0.227
+Regional Urban Planning	52	0.222
+Agricultural Engineering	50	0.214
+Astronomy Astrophysics	50	0.214
+Dentistry Oral Surgery Medicine	50	0.214
+Peripheral Vascular Disease	50	0.214
+Anesthesiology	48	0.205
+Archaeology	48	0.205
+Education Scientific Disciplines	47	0.201
+Nursing	47	0.201
+Developmental Biology	46	0.197
+Social Sciences Biomedical	46	0.197
+Instruments Instrumentation	45	0.192
+Engineering Multidisciplinary	44	0.188
+Engineering Chemical	43	0.184
+Gerontology	42	0.180
+Materials Science Multidisciplinary	42	0.180
+Reproductive Biology	42	0.180
+Sociology	42	0.180
+Information Science Library Science	41	0.175
+Construction Building Technology	40	0.171
+Pathology	38	0.162
+Criminology Penology	35	0.150
+Transportation Science Technology	35	0.150
+Dermatology	33	0.141
+Engineering Industrial	33	0.141
+Family Studies	32	0.137
+Geology	31	0.133
+Business	30	0.128
+Chemistry Medicinal	30	0.128
+Education Special	30	0.128
+Physics Applied	29	0.124
+Spectroscopy	29	0.124
+Allergy	28	0.120
+Business Finance	28	0.120
+Chemistry Physical	28	0.120
+Hospitality Leisure Sport Tourism	27	0.115
+Medical Laboratory Technology	26	0.111
+Transplantation	26	0.111
+Computer Science Software Engineering	25	0.107
+Communication	23	0.098
+Ergonomics	23	0.098
+International Relations	23	0.098
+Nuclear Science Technology	23	0.098
+Rheumatology	23	0.098
+Emergency Medicine	21	0.090
+Physics Multidisciplinary	21	0.090
+Automation Control Systems	20	0.085
+Mathematics Applied	18	0.077
+Social Work	18	0.077
+Materials Science Paper Wood	17	0.073
+Political Science	17	0.073
+Nanoscience Nanotechnology	16	0.068
+Demography	15	0.064
+Optics	15	0.064
+Polymer Science	15	0.064
+Development Studies	14	0.060
+Agricultural Economics Policy	13	0.056
+Engineering Mechanical	13	0.056
+Physics Atomic Molecular Chemical	11	0.047
+Religion	11	0.047
+Telecommunications	11	0.047
+Integrative Complementary Medicine	10	0.043
+Computer Science Hardware Architecture	9	0.038
+Engineering Geological	9	0.038
+Primary Health Care	9	0.038
+Law	8	0.034
+Mineralogy	8	0.034
+Music	8	0.034
+Thermodynamics	8	0.034
+Chemistry Organic	7	0.030
+Computer Science Cybernetics	7	0.030
+Humanities Multidisciplinary	7	0.030
+Materials Science Biomaterials	7	0.030
+Mathematics	7	0.030
+Physics Mathematical	7	0.030
+Cell Tissue Engineering	6	0.026
+Electrochemistry	6	0.026
+Engineering Manufacturing	6	0.026
+Mechanics	6	0.026
+Public Administration	6	0.026
+Chemistry Inorganic Nuclear	5	0.021
+Metallurgy Metallurgical Engineering	5	0.021
+Physics Condensed Matter	5	0.021
+Physics Fluids Plasmas	5	0.021
+Social Issues	5	0.021
+Engineering Marine	4	0.017
+Engineering Ocean	4	0.017
+History Philosophy Of Science	4	0.017
+Industrial Relations Labor	4	0.017
+Materials Science Characterization Testing	4	0.017
+Physics Particles Fields	4	0.017
+Crystallography	3	0.013
+Ethics	3	0.013
+Ethnic Studies	3	0.013
+History	3	0.013
+Mining Mineral Processing	3	0.013
+Robotics	3	0.013
+Art	2	0.009
+Engineering Aerospace	2	0.009
+Literature Romance	2	0.009
+Materials Science Textiles	2	0.009
+Psychology Psychoanalysis	2	0.009
+Andrology	1	0.004
+Architecture	1	0.004
+Cultural Studies	1	0.004
+History Of Social Sciences	1	0.004
+Literature	1	0.004
+Logic	1	0.004
+Materials Science Ceramics	1	0.004
+Materials Science Coatings Films	1	0.004
+Medical Ethics	1	0.004
+Medieval Renaissance Studies	1	0.004
+Microscopy	1	0.004
+Physics Nuclear	1	0.004
+Quantum Science Technology	1	0.004
+Women S Studies	1	0.004
