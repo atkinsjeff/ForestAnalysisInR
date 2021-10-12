@@ -1,56 +1,73 @@
 Package,Applications,Description,Link
+AHMbook,Community Analysis,Functions and Data for the Book 'Applied Hierarchical Modeling in Ecology' Vols 1 and 2,https://cran.r-project.org/web/packages/AHMbook/index.html
+AMAPVox,Remote Sensing,LiDAR Data Voxelisation,https://cran.r-project.org/web/packages/AMAPVox/index.html
+baad,Inventory/Mensuration,a Biomass And Allometry Database for woody plants,https://github.com/dfalster/baad
+BayesComm,Community Analysis,Bayesian Community Ecology Analysis,https://cran.r-project.org/web/packages/BayesComm/index.html
+basifoR,Inventory/Mensuration,Retrieval and Processing of the Spanish National Forest Inventory,https://cran.r-project.org/web/packages/basifoR/index.html
 BIEN,Inventory/Mensuration,Tools for Accessing the Botanical Information and Ecology Network Database,https://cran.r-project.org/web/packages/BIEN/BIEN.pdf
 BiodiversityR,Community Analysis,Package for Community Ecology and Suitability Analysis,https://cran.r-project.org/web/packages/BiodiversityR/index.html 
-CommEcol,Community Analysis,Community Ecology Analyses,https://cran.r-project.org/web/packages/CommEcol/index.html
-ecolTest,Community Analysis,Community Ecology Tests,https://cran.r-project.org/web/packages/ecolTest/index.html
-FAwR,Community Analysis,Function and Datasets for “Forest Analytics with R”,https://cran.r-project.org/web/packages/FAwR/index.html 
-FD,Community Analysis,"Measuring functional diversity (FD) from multiple traits, and other toos for functional ecology",https://cran.r-project.org/web/packages/FD/index.html
-labdsv,Community Analysis,Ordination and Multivariate Analysis for Ecology,https://cran.r-project.org/web/packages/labdsv/index.html
-vegan,Community Analysis,Community Ecology Package,https://cran.r-project.org/web/packages/vegan/index.html 
 BIOdry,Dendrochronology,Multilevel Modeling of Dendroclimatical Fluctuations,https://cran.r-project.org/web/packages/BIOdry/index.html 
+BIOMASS,Inventory/Mensuration,Estimating Aboveground Biomass and ITs Uncertainty in Tropical Forests,https://cran.r-project.org/web/packages/BIOMASS/index.html 
 burnr,Dendrochronology,Forest Fire History Analysis,https://cran.r-project.org/web/packages/burnr/index.html 
+caliver,Modelling/Simulation,An R package for the calibration and verification of gridded models,https://github.com/ecmwf/caliver
+canopyLazR,Remote Sensing,"R package to estimate leaf area density (LAD), leaf area index (LAI), and forest structural attributes from airborne LiDAR point clouds.",https://github.com/akamoske/canopyLazR 
+cffdrs,Inventory/Mensuration,Canadian Forest Fire Danger Rating System,https://cran.r-project.org/web/packages/cffdrs/index.html
+chillR,Phenology,Statistical Methods for Phenology Analysis in Temperate Fruit Trees,https://cran.r-project.org/web/packages/chillR/index.html 
+CommEcol,Community Analysis,Community Ecology Analyses,https://cran.r-project.org/web/packages/CommEcol/index.html
+dendrometeR,Inventory/Mensuration,Analyzing Dendrometer Data,https://cran.r-project.org/web/packages/dendrometeR/index.html 
 DendroSync,Dendrochronology,A Set of Tools for Calculating Spatial Synchrony Between Tree-Ring Chronologies,https://cran.r-project.org/web/packages/DendroSync/index.html   
 dendroTools,Dendrochronology,Linear and Nonlinear Methods for Analyzing Daily and Monthly Dendroclimatological Data,https://cran.r-project.org/web/packages/dendroTools/index.html 
 detrendeR,Dendrochronology,Start the detrendeR Graphical User Interface (GUI),https://cran.r-project.org/web/packages/detrendeR/index.html 
+DGVM3D,Modelling/Simulation,3D Forest Simulation Visualization Tool,https://cran.r-project.org/web/packages/DGVM3D/index.html 
 dlpR,Dendrochronology,Dendrochronology Program Library in R,https://cran.r-project.org/web/packages/dplR/index.html 
-measuRing,Dendrochronology,Detection and Control of Tree-Ring Widths on Scanned Image Sections,https://cran.r-project.org/web/packages/measuRing/index.html 
-pointRes,Dendrochronology,Analyzing Pointer Years and Components of Resilience,https://cran.r-project.org/web/packages/pointRes/index.html 
-RAPTOR,Dendrochronology,Row and Position Tracheid Organizer,https://cran.r-project.org/web/packages/RAPTOR/index.html 
-tracheideR,Dendrochronology,Standardize Tracheidograms,https://cran.r-project.org/web/packages/tracheideR/index.html 
-TRADER,Dendrochronology,Tree Ring Analysis of Disturbance Events in R,https://cran.r-project.org/web/packages/TRADER/index.html 
-treeclim,Dendrochronology,Numerical Calibration of Proxy-Climate Relationships,https://cran.r-project.org/web/packages/treeclim/index.html 
-baad,Inventory/Mensuration,a Biomass And Allometry Database for woody plants,https://github.com/dfalster/baad
-basifoR,Inventory/Mensuration,Retrieval and Processing of the Spanish National Forest Inventory,https://cran.r-project.org/web/packages/basifoR/index.html
-BIOMASS,Inventory/Mensuration,Estimating Aboveground Biomass and ITs Uncertainty in Tropical Forests,https://cran.r-project.org/web/packages/BIOMASS/index.html 
-cffdrs,Inventory/Mensuration,Canadian Forest Fire Danger Rating System,https://cran.r-project.org/web/packages/cffdrs/index.html
-dendrometeR,Inventory/Mensuration,Analyzing Dendrometer Data,https://cran.r-project.org/web/packages/dendrometeR/index.html 
+ecochange,Remote Sensing,Integrating Ecosystem Remote Sensing Products to Derive EBV Indicators,https://cran.r-project.org/web/packages/ecochange/index.html
+EcoHydrology,Hydrology,A package containing a library of principle/fundamental equations used in the interdisciplinary field studying the complex interactions between hydrology and ecology (commonly referred to as Eco-Hydrology).,https://r-forge.r-project.org/projects/ecohydrology/
+ecolTest,Community Analysis,Community Ecology Tests,https://cran.r-project.org/web/packages/ecolTest/index.html
+FAwR,Community Analysis,Function and Datasets for “Forest Analytics with R”,https://cran.r-project.org/web/packages/FAwR/index.html 
+FD,Community Analysis,"Measuring functional diversity (FD) from multiple traits, and other toos for functional ecology",https://cran.r-project.org/web/packages/FD/index.html
 fdq,Inventory/Mensuration,Forest Data Quality,https://cran.r-project.org/web/packages/fdq/index.html 
 fgeo,Inventory/Mensuration,Analyze Forest Diversity and Dynamics,https://cran.r-project.org/web/packages/fgeo/index.html 
 fgeo.analyze,Inventory/Mensuration,Analyze ForestGEO Data,https://cran.r-project.org/web/packages/fgeo.analyze/index.html 
 fgeo.plot,Inventory/Mensuration,Plot ForestGEO Data,https://cran.r-project.org/web/packages/fgeo.plot/index.html 
 fgeo.tool,Inventory/Mensuration,Import and Manipulate ForestGEO Data,https://cran.r-project.org/web/packages/fgeo.tool/index.html 
 fgeo.x,Inventory/Mensuration,Access Small ForestGEO Datasets for Examples,https://cran.r-project.org/web/packages/fgeo.x/index.html 
+Fgmutils,Modelling/Simulation,Forest Growth Model Utilities,https://cran.r-project.org/web/packages/Fgmutils/index.html 
 FI,Inventory/Mensuration,Provide functions for forest inventory calculations,https://cran.r-project.org/web/packages/FI/index.html
+fieldRS,Remote Sensing,Remote Sensing Field Work Tools,https://cran.r-project.org/web/packages/fieldRS/index.html
 florestal,Inventory/Mensuration,Results for Forest Inventories,https://cran.r-project.org/web/packages/florestal/index.html
 forestChange,Inventory/Mensuration,Computing Essential Biodiversity Variables from Global Forest Change Data,https://cran.r-project.org/web/packages/forestChange/index.html 
+forestecology,Modelling/Simulation,Methods and Data for Forest Ecology Model Fitting and Assessment ,https://cran.r-project.org/web/packages/forestecology/index.html
+ForestFit,Modelling/Simulation,Statistical Modelling for Plant Size Distributions,https://cran.r-project.org/web/packages/ForestFit/ForestFit.pdf
+ForestGapR,Remote Sensing,Tropical Forest Gaps Analysis ,https://cran.r-project.org/web/packages/ForestGapR/index.html
 forestHES,Inventory/Mensuration,Forest Health Evaluation System at the Forest Stand Level in China,https://cran.r-project.org/web/packages/forestHES/index.html 
 forestinventory,Inventory/Mensuration,Design-Based Global and Small-Area Estimations for Multiphase Forest Inventories,https://cran.r-project.org/web/packages/forestinventory/index.html
 forestmangr,Inventory/Mensuration,Forest Mensuration and Management,https://cran.r-project.org/web/packages/forestmangr/
+forestr,Remote Sensing,Ecosystem and Canopy Structural Complexity Metrics from LiDAR,https://cran.r-project.org/web/packages/forestr/index.html 
+forestsamplr,Inventory/Mensuration,Standard Forest Sampling Design Workups,https://github.com/SilviaTerra/forestsamplr
 forestSAS,Inventory/Mensuration,Forest Spatial Structure Analysis Systems,https://cran.r-project.org/web/packages/forestSAS/index.html 
+ForestTools,Remote Sensing,Analyzing Remotely Sensed Forest Data,https://cran.r-project.org/web/packages/ForestTools/index.html
 ForIT,Inventory/Mensuration,Functions from the 2nd Italian Forest Inventory (INFC),https://cran.r-project.org/web/packages/ForIT/ForIT.pdf
+FORTLS,Remote Sensing,Automatic Processing of TLS Point Cloud Data for Forestry Purposes,https://cran.r-project.org/web/packages/FORTLS/index.html
+foster,Remote Sensing,Forest Structure Extrapolation with R,https://cran.r-project.org/web/packages/foster/index.html
 fritools,Inventory/Mensuration,Utilities for the Forest Research Institute of the State Baden-Wuerttemberg,https://cran.r-project.org/web/packages/fritools/index.html
 gfcanalysis,Inventory/Mensuration,Tools for working with Hansen et al. Global Forest Change Dataset,https://cran.r-project.org/web/packages/gfcanalysis/index.html 
-lmfor,Inventory/Mensuration,Functions for Forest Biometrics,https://cran.r-project.org/package=lmfor 
-novelforestSG,Inventory/Mensuration,Data for Lai et al. (2021) Appl. Veg. Sci,https://cran.r-project.org/web/packages/novelforestSG/index.html
-rFIA,Inventory/Mensuration,Space-Time Estimation of Forest Variables using the FIA Database,https://cran.r-project.org/web/packages/rFIA/rFIA.
-DGVM3D,Modelling/Simulation,3D Forest Simulation Visualization Tool,https://cran.r-project.org/web/packages/DGVM3D/index.html 
-Fgmutils,Modelling/Simulation,Forest Growth Model Utilities,https://cran.r-project.org/web/packages/Fgmutils/index.html 
-forestecology,Modelling/Simulation,Methods and Data for Forest Ecology Model Fitting and Assessment ,https://cran.r-project.org/web/packages/forestecology/index.html
-ForestFit,Modelling/Simulation,Statistical Modelling for Plant Size Distributions,https://cran.r-project.org/web/packages/ForestFit/ForestFit.pdf
 HMB,Modelling/Simulation,Hierarchical Model-Based Estimation Approach,https://cran.r-project.org/web/packages/HMB/index.html
+hsdar,Remote Sensing,"Manage, analyze and simulate hyperspectral data",https://cran.r-project.org/web/packages/hsdar/index.html 
+hyperspec,Remote Sensing,"Work with Hyperspectral Data, i.e. Spectra + Meta Information (Spatial, Time, Concentration, ...)",https://cran.r-project.org/web/packages/hyperSpec/index.html 
+hypRspec,Remote Sensing,"Work with Hyperspectral Data, i.e. Spectra + Meta Information (Spatial, Time, Concentration, ...)",https://github.com/akamoske/hypRspec
+labdsv,Community Analysis,Ordination and Multivariate Analysis for Ecology,https://cran.r-project.org/web/packages/labdsv/index.html
+leafR,Remote Sensing,Calculates the Leaf Area Index (LAD) and Other Related Functions,https://cran.r-project.org/web/packages/leafR/index.html
+lidarRtRee,Remote Sensing,"Forest Analysis with Airborne, Laser Scanning (LiDAR) Data",https://cran.r-project.org/web/packages/lidaRtRee/index.html
+lidR,Remote Sensing,Airborne LiDAR Data Manipulation and Visualization for Forestry Applications,https://cran.r-project.org/web/packages/lidR/index.html
+link2GI,Remote Sensing,"Linking Geographic Information Systems, Remote Sensing and Other Command Line Tools",https://cran.r-project.org/web/packages/link2GI/index.html
+lmfor,Inventory/Mensuration,Functions for Forest Biometrics,https://cran.r-project.org/package=lmfor 
+LSRS,Remote Sensing,Land surface remote sensing,https://cran.r-project.org/web/packages/LSRS/index.html
+measuRing,Dendrochronology,Detection and Control of Tree-Ring Widths on Scanned Image Sections,https://cran.r-project.org/web/packages/measuRing/index.html 
 medfate,Modelling/Simulation,Mediterranean Forest Simulation,https://cran.r-project.org/web/packages/medfate/index.html 
-r3PG,Modelling/Simulation,Simulation Forest Growth using the 3-PG Model,https://cran.r-project.org/web/packages/r3PG/index.html 
-chillR,Phenology,Statistical Methods for Phenology Analysis in Temperate Fruit Trees,https://cran.r-project.org/web/packages/chillR/index.html 
+modEvA,Modelling/Simulation,modEvA is an R package for species distribution model evaluation and analysis.,https://r-forge.r-project.org/projects/modeva/
+mvabund,Modelling/Simulation,"A set of tools for displaying, modeling and analysing multivariate abundance data in community",https://r-forge.r-project.org/projects/mvabund/
+nightmares,Remote Sensing,Common Analysis with Remote Sensing Data,https://cran.r-project.org/web/packages/nightmares/index.html
+novelforestSG,Inventory/Mensuration,Data for Lai et al. (2021) Appl. Veg. Sci,https://cran.r-project.org/web/packages/novelforestSG/index.html
 npphen,Phenology,Vegetation Phenological Cycle and Anomaly Detection using Remote Sensing Data,https://cran.r-project.org/web/packages/npphen/index.html
 phenesse,Phenology,Estimate phenological metrics using presence-only data,https://cran.r-project.org/web/packages/phenesse/index.html 
 phenex,Phenology,Auxiliary Function for Phenological Data Analysis,https://cran.r-project.org/web/packages/phenex/index.html 
@@ -63,26 +80,27 @@ phenofit,Phenology,Extract Remotes Sensing Vegetation Phenology,https://cran.r-p
 phenomap,Phenology,projecting Satellite-Derived Phenology in Space,https://cran.r-project.org/web/packages/phenomap/index.html 
 phenopix,Phenology,Process Digital images of vegetation cover,https://cran.r-project.org/web/packages/phenopix/index.html 
 phenor,Phenology,A package for rapid phenology model development.,https://rdrr.io/github/khufkens/phenor/man/phenor.html 
-canopyLazR,Remote Sensing,"R package to estimate leaf area density (LAD), leaf area index (LAI), and forest structural attributes from airborne LiDAR point clouds.",https://github.com/akamoske/canopyLazR 
-filedRS,Remote Sensing,Remote Sensing Field Work Tools,https://cran.r-project.org/web/packages/fieldRS/index.html
-ForestGapR,Remote Sensing,Tropical Forest Gaps Analysis ,https://cran.r-project.org/web/packages/ForestGapR/index.html
-forestr,Remote Sensing,Ecosystem and Canopy Structural Complexity Metrics from LiDAR,https://cran.r-project.org/web/packages/forestr/index.html 
-ForestTools,Remote Sensing,Analyzing Remotely Sensed Forest Data,https://cran.r-project.org/web/packages/ForestTools/index.html
-FORTLS,Remote Sensing,Automatic Processing of TLS Point Cloud Data for Forestry Purposes,https://cran.r-project.org/web/packages/FORTLS/index.html
-foster,Remote Sensing,Forest Structure Extrapolation with R,https://cran.r-project.org/web/packages/foster/index.html
-hsdar,Remote Sensing,"Manage, analyze and simulate hyperspectral data",https://cran.r-project.org/web/packages/hsdar/index.html 
-hyperspec,Remote Sensing,"Work with Hyperspectral Data, i.e. Spectra + Meta Information (Spatial, Time, Concentration, ...)",https://cran.r-project.org/web/packages/hyperSpec/index.html 
-hypRspec,Remote Sensing,"Work with Hyperspectral Data, i.e. Spectra + Meta Information (Spatial, Time, Concentration, ...)",https://github.com/akamoske/hypRspec
-leafR,Remote Sensing,Calculates the Leaf Area Index (LAD) and Other Related Functions,https://cran.r-project.org/web/packages/leafR/index.html
-lidarRtRee,Remote Sensing,"Forest Analysis with Airborne, Laser Scanning (LiDAR) Data",https://cran.r-project.org/web/packages/lidaRtRee/index.html
-lidR,Remote Sensing,Airborne LiDAR Data Manipulation and Visualization for Forestry Applications,https://cran.r-project.org/web/packages/lidR/index.html
+pointRes,Dendrochronology,Analyzing Pointer Years and Components of Resilience,https://cran.r-project.org/web/packages/pointRes/index.html 
+PROTOLIDAR,Remote Sensing,PRocess TOol LIdar DAta in R,https://cran.r-project.org/web/packages/PROTOLIDAR/index.html
+r3PG,Modelling/Simulation,Simulation Forest Growth using the 3-PG Model,https://cran.r-project.org/web/packages/r3PG/index.html 
+RAPTOR,Dendrochronology,Row and Position Tracheid Organizer,https://cran.r-project.org/web/packages/RAPTOR/index.html 
+rFIA,Inventory/Mensuration,Space-Time Estimation of Forest Variables using the FIA Database,https://cran.r-project.org/web/packages/rFIA/rFIA.
 rGEDI,Remote Sensing,NASA's Global Ecosystem Dynamics Investigation (GEDI) Data Visualization and Processing,https://cran.rstudio.com/web/packages/rGEDI/index.html
+rlas,Remote Sensing,Read and Write 'las' and 'laz' Binary File Formats Used for Remote Sensing Data,https://cran.r-project.org/web/packages/rlas/index.html
+RCSF,Remote Sensing,Airborne LiDAR Filtering Method Based on Cloth Simulation,https://cran.r-project.org/web/packages/RCSF/index.html
+RSIP,Remote Sensing,Remote sensing and image processing,https://cran.r-project.org/web/packages/RSIP/index.html
+RStoolbox,Remote Sensing,Tools for remote sensing data analysis,https://cran.r-project.org/web/packages/RStoolbox/index.html
 rLiDAR,Remote Sensing,LiDAR Data Processing and Visualization,https://cran.r-project.org/web/packages/rLiDAR/index.html
+satellite,Remote Sensing,Handling and Manipulating Remote Sensing Data,https://cran.r-project.org/web/packages/satellite/index.html
 ShapeSelectForest,Remote Sensing,Shape Selection for Landsat time Series of Forest Dynamics,https://cran.r-project.org/web/packages/ShapeSelectForest/index.html 
 Sky,Remote Sensing,Canopy Openness Analyzer Package,https://cran.r-project.org/web/packages/Sky/index.html 
-TreeLS,Remote Sensing,Terrestrial Point Cloud Processing of Forest Data,https://cran.r-project.org/web/packages/TreeLS/index.html 
-treetop,Remote Sensing,A Shiny-Based Application for Extracting Forest Information from LiDAR Data,https://cran.r-project.org/web/packages/treetop/index.html
 tidyFIA,Inventory/Mensuration,Assemble Forest Inventory and Analysis (FIA) Data for Analysis,https://github.com/SilviaTerra/tidyFIA
-forestsamplr,Inventory/Mensuration,Standard Forest Sampling Design Workups,https://github.com/SilviaTerra/forestsamplr
-caliver,Modelling/Simulation,An R package for the calibration and verification of gridded models,https://github.com/ecmwf/caliver
+tracheideR,Dendrochronology,Standardize Tracheidograms,https://cran.r-project.org/web/packages/tracheideR/index.html 
+TRADER,Dendrochronology,Tree Ring Analysis of Disturbance Events in R,https://cran.r-project.org/web/packages/TRADER/index.html 
+treeclim,Dendrochronology,Numerical Calibration of Proxy-Climate Relationships,https://cran.r-project.org/web/packages/treeclim/index.html 
+TreeLS,Remote Sensing,Terrestrial Point Cloud Processing of Forest Data,https://cran.r-project.org/web/packages/TreeLS/index.html 
 TreeTalkersCheck,Informatics/IoT,An alert system to daily monitoring of TreeTalkers devices,https://github.com/saveriofrancini/TreeTalkersCheck
+tsvr,Community Analysis,Timescale-Specific Variance Ratio for Use in Community Ecology,https://cran.r-project.org/web/packages/SSP/index.html
+SSP,Community Analysis,Simulated Sampling Procedure for Community Ecology,https://cran.r-project.org/web/packages/tsvr/index.html
+treetop,Remote Sensing,A Shiny-Based Application for Extracting Forest Information from LiDAR Data,https://cran.r-project.org/web/packages/treetop/index.html
+vegan,Community Analysis,Community Ecology Package,https://cran.r-project.org/web/packages/vegan/index.html 
