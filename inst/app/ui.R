@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
 
   headerPanel("R packages for Forestry Analysis"),
   sidebarPanel(
-    selectizeInput('var1', 'Select Application', choices = c("choose" = "", c("Community Analysis", "Dendrochronology", "Inventory/Mensuration", "Informatics/IoT", "Modelling/Simulation",
+    selectizeInput('var1', 'Select Application', choices = c("choose" = "", c("Community Analysis", "Dendrochronology", "Inventory/Mensuration", "Hydrology", "Informatics/IoT", "Modelling/Simulation",
                                                                               "Phenology","Remote Sensing")), multiple = FALSE, selected = "Remote Sensing" ),
     # # adding the new div tag to the sidebar
     tags$div(class="header", checked=NA,
